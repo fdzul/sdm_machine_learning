@@ -592,7 +592,6 @@ tibble::tibble("Género" = x$genero,
 
 ## [*Anopheles*]{style="color:#003300;align-items: center"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
-&nbsp;
 
 <html>
 <head>
@@ -655,7 +654,6 @@ tibble::tibble("Género" = x$genero,
 
 ## [*Coquillettidia* & *Psorophora*]{style="color:#003300;align-items: center"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
-&nbsp;
 
 <html>
 <head>
@@ -720,6 +718,50 @@ tibble::tibble("Género" = x$genero,
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](trichoprosopon/Trichoprosopon digitatum.jpg)
+
+
+## [**Aedes triseriatus**]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+<html>
+<head>
+<style>
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="grid-container2">
+  <div class="grid-item2">SDM</div>
+  <div class="grid-item2">Publicación 2014 </div>
+  <div class="grid-item2"><img src="aedes/Aedes triseriatus.jpg"></div>
+  <div class="grid-item2"><img src="aedes_triseriatus_2014.png"></div>
+ 
+</div>
+</body>
+</html>
+
+## [**Puntos Importante**]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+- Unir *Culex pipiens* y *Culex quinquefasciatus*
+
+- Incluir datos del mosquitos dasboard
+
+- Ampliar la resolición temporal de la revisión (2010-2023)
+
+
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
