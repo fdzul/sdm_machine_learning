@@ -386,8 +386,8 @@ Dr.&nbsp;Héctor Gómez-Dantés
 <p>&nbsp; 2022-2023</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-1f7a6a2ccb9f3debc5fe" style="width:100%;height:100%;"></div>
-<script type="application/json" data-for="htmlwidget-1f7a6a2ccb9f3debc5fe">{"x":{"diagram":"digraph {\n                  # graph definitions\n  graph [layout = dot, rankdir = TB]\n  \n  # node definitions\n  node [shape = rectangle, style = filled, color = grey, \n  nodesep = 1, \n  fixedsize = false, \n  width = 1.7] \n  \n  # edge definition\n  edge [color = grey, arrowhead = normal, arrowtail = dot]\n  \n  ##### fuentes de información\n  \n  inf [label = \"Datasets\",  fillcolor =  \"#DB4437\", color = \"white\", fontcolor = \"white\"]\n  \n  \n  ##### datasets\n  \n  cenaprece [label = \"CENAPRECE\",  fillcolor =  \"#0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  indre [label = \"INDRE\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  revision [label = \"PUBMED\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  bas_per [label = \"Entomology Personal Datasets\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  gbif [label = \"GBIF\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  conabio [label = \"CONABIO\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n \n # \n anofeles [label = \"Anopheles\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n culicidae [label = \"Culicidae\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n ao [label = \"Aldo Ortega\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n ro [label = \"Rafael Ojeda\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n \n spocc [label = \"spocc\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n geodata [label = \"geodata\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n \n\n # final dataset\n \n data_final [label = \"Culicidae_mx_dataset\",  fillcolor =  \"DodgerBlue\", color = \"white\", fontcolor = \"white\"]\n \n ###\n ae [label = \"Aedes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n cx [label = \"Culex\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n an [label = \"Anopheles\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n hg [label = \"Haemagogus\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n ps [label = \"Psorophora\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cq [label = \"Coquillettidia\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cs [label = \"Culiseta\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n sb [label = \"Sabethes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n tr [label = \"Trichoprosopon\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n \n \n ###\n \n sdm [label = \"SDM\",  fillcolor =  \"#E01E5A\", color = \"white\", fontcolor = \"white\"]\n \n \n ##### define the relation\n \n inf -> {cenaprece indre revision bas_per gbif conabio}\n indre -> {anofeles culicidae} -> data_final\n bas_per -> {ao ro} -> data_final\n \n gbif -> {spocc geodata} -> data_final\n cenaprece -> data_final\n revision -> data_final\n conabio -> data_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}\n \n \n\n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-a2673ef4ea2c82edc420" style="width:100%;height:100%;"></div>
+<script type="application/json" data-for="htmlwidget-a2673ef4ea2c82edc420">{"x":{"diagram":"digraph {\n                  # graph definitions\n  graph [layout = dot, rankdir = TB]\n  \n  # node definitions\n  node [shape = rectangle, style = filled, color = grey, \n  nodesep = 1, \n  fixedsize = false, \n  width = 1.7] \n  \n  # edge definition\n  edge [color = grey, arrowhead = normal, arrowtail = dot]\n  \n  ##### fuentes de información\n  \n  inf [label = \"Datasets\",  fillcolor =  \"#DB4437\", color = \"white\", fontcolor = \"white\"]\n  \n  \n  ##### datasets\n  \n  cenaprece [label = \"CENAPRECE\",  fillcolor =  \"#0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  indre [label = \"INDRE\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  revision [label = \"PUBMED\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  bas_per [label = \"Entomology Personal Datasets\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  gbif [label = \"GBIF\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  conabio [label = \"CONABIO\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n \n # \n anofeles [label = \"Anopheles\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n culicidae [label = \"Culicidae\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n ao [label = \"Aldo Ortega\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n ro [label = \"Rafael Ojeda\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n \n spocc [label = \"spocc\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n geodata [label = \"geodata\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n \n\n # final dataset\n \n data_final [label = \"Culicidae_mx_dataset\",  fillcolor =  \"DodgerBlue\", color = \"white\", fontcolor = \"white\"]\n \n ###\n ae [label = \"Aedes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n cx [label = \"Culex\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n an [label = \"Anopheles\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n hg [label = \"Haemagogus\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n ps [label = \"Psorophora\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cq [label = \"Coquillettidia\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cs [label = \"Culiseta\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n sb [label = \"Sabethes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n tr [label = \"Trichoprosopon\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n \n \n ###\n \n sdm [label = \"SDM\",  fillcolor =  \"#E01E5A\", color = \"white\", fontcolor = \"white\"]\n \n \n ##### define the relation\n \n inf -> {cenaprece indre revision bas_per gbif conabio}\n indre -> {anofeles culicidae} -> data_final\n bas_per -> {ao ro} -> data_final\n \n gbif -> {spocc geodata} -> data_final\n cenaprece -> data_final\n revision -> data_final\n conabio -> data_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}\n \n \n\n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section><section id="mosquito-dashboard" class="slide level2"><h2>Mosquito Dashboard</h2>
@@ -398,8 +398,8 @@ Dr.&nbsp;Héctor Gómez-Dantés
 <p>&nbsp;</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-55b11b97896995cbf5f6" style="width:100%;height:200%;"></div>
-<script type="application/json" data-for="htmlwidget-55b11b97896995cbf5f6">{"x":{"diagram":"digraph {\n                  # graph definitions\n  graph [layout = dot, rankdir = TB]\n  \n  # node definitions\n  node [shape = rectangle, style = filled, color = grey, \n  nodesep = 1, \n  fixedsize = false, \n  width = 1.7] \n  \n  # edge definition\n  edge [color = grey, arrowhead = normal, arrowtail = dot]\n  \n  ##### fuentes de información\n  \n  inf [label = \"Datasets\",  fillcolor =  \"#DB4437\", color = \"white\", fontcolor = \"white\"]\n  \n  \n  ##### datasets\n  \n  cenaprece [label = \"CENAPRECE\",  fillcolor =  \"#0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  indre [label = \"INDRE\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  revision [label = \"PUBMED\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  bas_per [label = \"Entomology Personal Datasets\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  gbif [label = \"GBIF\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  conabio [label = \"CONABIO\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n \n  GLOBE_Observer [label = \"GLOBE Observer*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  Mosquito_Alert  [label = \"Mosquito Alert*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  iNaturalist  [label = \"iNaturalist*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n\n\n # final dataset\n \n data_final [label = \"Culicidae_mx_dataset\",  fillcolor =  \"DodgerBlue\", color = \"white\", fontcolor = \"white\"]\n \n ###\n ae [label = \"Aedes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n cx [label = \"Culex\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n an [label = \"Anopheles\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n hg [label = \"Haemagogus\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n ps [label = \"Psorophora\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cq [label = \"Coquillettidia\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cs [label = \"Culiseta\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n sb [label = \"Sabethes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n tr [label = \"Trichoprosopon\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n \n \n ###\n \n sdm [label = \"SDM\",  fillcolor =  \"#E01E5A\", color = \"white\", fontcolor = \"white\"]\n \n \n ##### define the relation\n \n inf -> {cenaprece indre revision bas_per gbif conabio GLOBE_Observer Mosquito_Alert iNaturalist}  -> data_final\n \ndata_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}\n \n \n\n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-16a5ad4e58eec2e0a1d7" style="width:100%;height:200%;"></div>
+<script type="application/json" data-for="htmlwidget-16a5ad4e58eec2e0a1d7">{"x":{"diagram":"digraph {\n                  # graph definitions\n  graph [layout = dot, rankdir = TB]\n  \n  # node definitions\n  node [shape = rectangle, style = filled, color = grey, \n  nodesep = 1, \n  fixedsize = false, \n  width = 1.7] \n  \n  # edge definition\n  edge [color = grey, arrowhead = normal, arrowtail = dot]\n  \n  ##### fuentes de información\n  \n  inf [label = \"Datasets\",  fillcolor =  \"#DB4437\", color = \"white\", fontcolor = \"white\"]\n  \n  \n  ##### datasets\n  \n  cenaprece [label = \"CENAPRECE\",  fillcolor =  \"#0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  indre [label = \"INDRE\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  revision [label = \"PUBMED\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  bas_per [label = \"Entomology Personal Datasets\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  gbif [label = \"GBIF\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  conabio [label = \"CONABIO\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n \n  GLOBE_Observer [label = \"GLOBE Observer*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  Mosquito_Alert  [label = \"Mosquito Alert*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  iNaturalist  [label = \"iNaturalist*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n\n\n # final dataset\n \n data_final [label = \"Culicidae_mx_dataset\",  fillcolor =  \"DodgerBlue\", color = \"white\", fontcolor = \"white\"]\n \n ###\n ae [label = \"Aedes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n cx [label = \"Culex\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n an [label = \"Anopheles\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n hg [label = \"Haemagogus\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n ps [label = \"Psorophora\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cq [label = \"Coquillettidia\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cs [label = \"Culiseta\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n sb [label = \"Sabethes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n tr [label = \"Trichoprosopon\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n \n \n ###\n \n sdm [label = \"SDM\",  fillcolor =  \"#E01E5A\", color = \"white\", fontcolor = \"white\"]\n \n \n ##### define the relation\n \n inf -> {cenaprece indre revision bas_per gbif conabio GLOBE_Observer Mosquito_Alert iNaturalist}  -> data_final\n \ndata_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}\n \n \n\n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section><section id="registros-de-culicidae-en-méxico" class="slide level2"><h2><span style="color:#003300;align-items: center">Registros de Culicidae en México</span></h2>
@@ -407,23 +407,23 @@ Dr.&nbsp;Héctor Gómez-Dantés
 <p>&nbsp;</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="kegrcectew" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#kegrcectew table {
+<div id="hdpcknjswx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#hdpcknjswx table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#kegrcectew thead, #kegrcectew tbody, #kegrcectew tfoot, #kegrcectew tr, #kegrcectew td, #kegrcectew th {
+#hdpcknjswx thead, #hdpcknjswx tbody, #hdpcknjswx tfoot, #hdpcknjswx tr, #hdpcknjswx td, #hdpcknjswx th {
   border-style: none;
 }
 
-#kegrcectew p {
+#hdpcknjswx p {
   margin: 0;
   padding: 0;
 }
 
-#kegrcectew .gt_table {
+#hdpcknjswx .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -449,12 +449,12 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-left-color: #D3D3D3;
 }
 
-#kegrcectew .gt_caption {
+#hdpcknjswx .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#kegrcectew .gt_title {
+#hdpcknjswx .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -466,7 +466,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-bottom-width: 0;
 }
 
-#kegrcectew .gt_subtitle {
+#hdpcknjswx .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -478,7 +478,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-top-width: 0;
 }
 
-#kegrcectew .gt_heading {
+#hdpcknjswx .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -490,13 +490,13 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-right-color: #D3D3D3;
 }
 
-#kegrcectew .gt_bottom_border {
+#hdpcknjswx .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#kegrcectew .gt_col_headings {
+#hdpcknjswx .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -511,7 +511,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-right-color: #D3D3D3;
 }
 
-#kegrcectew .gt_col_heading {
+#hdpcknjswx .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 35px;
@@ -531,7 +531,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   overflow-x: hidden;
 }
 
-#kegrcectew .gt_column_spanner_outer {
+#hdpcknjswx .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 35px;
@@ -543,15 +543,15 @@ Dr.&nbsp;Héctor Gómez-Dantés
   padding-right: 4px;
 }
 
-#kegrcectew .gt_column_spanner_outer:first-child {
+#hdpcknjswx .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#kegrcectew .gt_column_spanner_outer:last-child {
+#hdpcknjswx .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#kegrcectew .gt_column_spanner {
+#hdpcknjswx .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -563,11 +563,11 @@ Dr.&nbsp;Héctor Gómez-Dantés
   width: 100%;
 }
 
-#kegrcectew .gt_spanner_row {
+#hdpcknjswx .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#kegrcectew .gt_group_heading {
+#hdpcknjswx .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -593,7 +593,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   text-align: left;
 }
 
-#kegrcectew .gt_empty_group_heading {
+#hdpcknjswx .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -608,15 +608,15 @@ Dr.&nbsp;Héctor Gómez-Dantés
   vertical-align: middle;
 }
 
-#kegrcectew .gt_from_md > :first-child {
+#hdpcknjswx .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#kegrcectew .gt_from_md > :last-child {
+#hdpcknjswx .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#kegrcectew .gt_row {
+#hdpcknjswx .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -635,7 +635,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   overflow-x: hidden;
 }
 
-#kegrcectew .gt_stub {
+#hdpcknjswx .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -648,7 +648,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   padding-right: 5px;
 }
 
-#kegrcectew .gt_stub_row_group {
+#hdpcknjswx .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -662,15 +662,15 @@ Dr.&nbsp;Héctor Gómez-Dantés
   vertical-align: top;
 }
 
-#kegrcectew .gt_row_group_first td {
+#hdpcknjswx .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#kegrcectew .gt_row_group_first th {
+#hdpcknjswx .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#kegrcectew .gt_summary_row {
+#hdpcknjswx .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -680,16 +680,16 @@ Dr.&nbsp;Héctor Gómez-Dantés
   padding-right: 5px;
 }
 
-#kegrcectew .gt_first_summary_row {
+#hdpcknjswx .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#kegrcectew .gt_first_summary_row.thick {
+#hdpcknjswx .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#kegrcectew .gt_last_summary_row {
+#hdpcknjswx .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -699,7 +699,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-bottom-color: #D3D3D3;
 }
 
-#kegrcectew .gt_grand_summary_row {
+#hdpcknjswx .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -709,7 +709,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   padding-right: 5px;
 }
 
-#kegrcectew .gt_first_grand_summary_row {
+#hdpcknjswx .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -719,7 +719,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-top-color: #D3D3D3;
 }
 
-#kegrcectew .gt_last_grand_summary_row_top {
+#hdpcknjswx .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -729,11 +729,11 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-bottom-color: #D3D3D3;
 }
 
-#kegrcectew .gt_striped {
+#hdpcknjswx .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#kegrcectew .gt_table_body {
+#hdpcknjswx .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -742,7 +742,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-bottom-color: #D3D3D3;
 }
 
-#kegrcectew .gt_footnotes {
+#hdpcknjswx .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -756,7 +756,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-right-color: #D3D3D3;
 }
 
-#kegrcectew .gt_footnote {
+#hdpcknjswx .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -765,7 +765,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   padding-right: 5px;
 }
 
-#kegrcectew .gt_sourcenotes {
+#hdpcknjswx .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -779,7 +779,7 @@ Dr.&nbsp;Héctor Gómez-Dantés
   border-right-color: #D3D3D3;
 }
 
-#kegrcectew .gt_sourcenote {
+#hdpcknjswx .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -787,63 +787,63 @@ Dr.&nbsp;Héctor Gómez-Dantés
   padding-right: 5px;
 }
 
-#kegrcectew .gt_left {
+#hdpcknjswx .gt_left {
   text-align: left;
 }
 
-#kegrcectew .gt_center {
+#hdpcknjswx .gt_center {
   text-align: center;
 }
 
-#kegrcectew .gt_right {
+#hdpcknjswx .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#kegrcectew .gt_font_normal {
+#hdpcknjswx .gt_font_normal {
   font-weight: normal;
 }
 
-#kegrcectew .gt_font_bold {
+#hdpcknjswx .gt_font_bold {
   font-weight: bold;
 }
 
-#kegrcectew .gt_font_italic {
+#hdpcknjswx .gt_font_italic {
   font-style: italic;
 }
 
-#kegrcectew .gt_super {
+#hdpcknjswx .gt_super {
   font-size: 65%;
 }
 
-#kegrcectew .gt_footnote_marks {
+#hdpcknjswx .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#kegrcectew .gt_asterisk {
+#hdpcknjswx .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#kegrcectew .gt_indent_1 {
+#hdpcknjswx .gt_indent_1 {
   text-indent: 5px;
 }
 
-#kegrcectew .gt_indent_2 {
+#hdpcknjswx .gt_indent_2 {
   text-indent: 10px;
 }
 
-#kegrcectew .gt_indent_3 {
+#hdpcknjswx .gt_indent_3 {
   text-indent: 15px;
 }
 
-#kegrcectew .gt_indent_4 {
+#hdpcknjswx .gt_indent_4 {
   text-indent: 20px;
 }
 
-#kegrcectew .gt_indent_5 {
+#hdpcknjswx .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -1073,6 +1073,52 @@ Registros Únicos
 </div>
 <div class="grid-item">
 <p><img data-src="aedes/Aedes%20taeniorhynchus.jpg"></p>
+</div>
+</div>
+
+
+</section><section id="culex" class="slide level2"><h2><span style="color:#003300;align-items: center">Culex</span></h2>
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+<p>&nbsp;</p>
+
+
+<style>
+.grid-container_culex {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+<h1>
+</h1>
+<p>
+</p>
+<div class="grid-container_culex">
+<div class="grid-item">
+<p><img data-src="culex/Culex%20quinquefasciatus.jpg"></p>
+</div>
+<div class="grid-item">
+<p><img data-src="culex/Culex%20pipiens.jpg"></p>
+</div>
+<div class="grid-item">
+<p><img data-src="culex/Culex%20nigripalpus.jpg"></p>
+</div>
+<div class="grid-item">
+<p><img data-src="culex/Culex%20restuans.jpg"></p>
+</div>
+<div class="grid-item">
+<p><img data-src="culex/Culex%20salinarius.jpg"></p>
+</div>
+<div class="grid-item">
+<p><img data-src="culex/Culex%20tarsalis.jpg"></p>
 </div>
 </div>
 
