@@ -215,4 +215,15 @@ DiagrammeR::grViz("digraph {
 ```
 
 
+## [Dios Botic]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+-   ***Bio*** : [https://fdzul.github.io/web_site_fadm/]()
+
+-   ***email*** : [felipe.dzul.m\@gmail.com]()
+
+-   ***celular*** : [9999580167]()
+
+-   ***slides***: [https://sensational-meerkat-e2d1c0.netlify.app/talks/fadm_santos_pando/#/](https://sensational-meerkat-e2d1c0.netlify.app/talks/fadm_santos_pando/#/)
+
 
