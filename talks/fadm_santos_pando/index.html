@@ -386,8 +386,8 @@ Dr.&nbsp;Héctor Gómez-Dantés
 <p>&nbsp; 2022-2023</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-9104e283262e45357ff6" style="width:100%;height:100%;"></div>
-<script type="application/json" data-for="htmlwidget-9104e283262e45357ff6">{"x":{"diagram":"digraph {\n                  # graph definitions\n  graph [layout = dot, rankdir = TB]\n  \n  # node definitions\n  node [shape = rectangle, style = filled, color = grey, \n  nodesep = 1, \n  fixedsize = false, \n  width = 1.7] \n  \n  # edge definition\n  edge [color = grey, arrowhead = normal, arrowtail = dot]\n  \n  ##### fuentes de información\n  \n  inf [label = \"Datasets\",  fillcolor =  \"#DB4437\", color = \"white\", fontcolor = \"white\"]\n  \n  \n  ##### datasets\n  \n  cenaprece [label = \"CENAPRECE\",  fillcolor =  \"#0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  indre [label = \"INDRE\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  revision [label = \"PUBMED\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  bas_per [label = \"Entomology Personal Datasets\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  gbif [label = \"GBIF\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  conabio [label = \"CONABIO\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n \n # \n anofeles [label = \"Anopheles\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n culicidae [label = \"Culicidae\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n ao [label = \"Aldo Ortega\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n ro [label = \"Rafael Ojeda\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n \n spocc [label = \"spocc\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n geodata [label = \"geodata\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n \n\n # final dataset\n \n data_final [label = \"Culicidae_mx_dataset\",  fillcolor =  \"DodgerBlue\", color = \"white\", fontcolor = \"white\"]\n \n ###\n ae [label = \"Aedes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n cx [label = \"Culex\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n an [label = \"Anopheles\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n hg [label = \"Haemagogus\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n ps [label = \"Psorophora\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cq [label = \"Coquillettidia\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cs [label = \"Culiseta\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n sb [label = \"Sabethes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n tr [label = \"Trichoprosopon\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n \n \n ###\n \n sdm [label = \"SDM\",  fillcolor =  \"#E01E5A\", color = \"white\", fontcolor = \"white\"]\n \n \n ##### define the relation\n \n inf -> {cenaprece indre revision bas_per gbif conabio}\n indre -> {anofeles culicidae} -> data_final\n bas_per -> {ao ro} -> data_final\n \n gbif -> {spocc geodata} -> data_final\n cenaprece -> data_final\n revision -> data_final\n conabio -> data_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}\n \n \n\n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-c10f94be49c80dc820b9" style="width:100%;height:100%;"></div>
+<script type="application/json" data-for="htmlwidget-c10f94be49c80dc820b9">{"x":{"diagram":"digraph {\n                  # graph definitions\n  graph [layout = dot, rankdir = TB]\n  \n  # node definitions\n  node [shape = rectangle, style = filled, color = grey, \n  nodesep = 1, \n  fixedsize = false, \n  width = 1.7] \n  \n  # edge definition\n  edge [color = grey, arrowhead = normal, arrowtail = dot]\n  \n  ##### fuentes de información\n  \n  inf [label = \"Datasets\",  fillcolor =  \"#DB4437\", color = \"white\", fontcolor = \"white\"]\n  \n  \n  ##### datasets\n  \n  cenaprece [label = \"CENAPRECE\",  fillcolor =  \"#0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  indre [label = \"INDRE\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  revision [label = \"PUBMED\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  bas_per [label = \"Entomology Personal Datasets\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  gbif [label = \"GBIF\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  conabio [label = \"CONABIO\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n \n # \n anofeles [label = \"Anopheles\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n culicidae [label = \"Culicidae\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n ao [label = \"Aldo Ortega\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n ro [label = \"Rafael Ojeda\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n \n spocc [label = \"spocc\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n geodata [label = \"geodata\",  fillcolor =  \"orange\", color = \"white\", fontcolor = \"black\"]\n \n\n # final dataset\n \n data_final [label = \"Culicidae_mx_dataset\",  fillcolor =  \"DodgerBlue\", color = \"white\", fontcolor = \"white\"]\n \n ###\n ae [label = \"Aedes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n cx [label = \"Culex\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n an [label = \"Anopheles\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n hg [label = \"Haemagogus\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n ps [label = \"Psorophora\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cq [label = \"Coquillettidia\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cs [label = \"Culiseta\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n sb [label = \"Sabethes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n tr [label = \"Trichoprosopon\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n \n \n ###\n \n sdm [label = \"SDM\",  fillcolor =  \"#E01E5A\", color = \"white\", fontcolor = \"white\"]\n \n \n ##### define the relation\n \n inf -> {cenaprece indre revision bas_per gbif conabio}\n indre -> {anofeles culicidae} -> data_final\n bas_per -> {ao ro} -> data_final\n \n gbif -> {spocc geodata} -> data_final\n cenaprece -> data_final\n revision -> data_final\n conabio -> data_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}\n \n \n\n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section><section id="mosquito-dashboard" class="slide level2"><h2>Mosquito Dashboard</h2>
@@ -398,12 +398,569 @@ Dr.&nbsp;Héctor Gómez-Dantés
 <p>&nbsp;</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item" id="htmlwidget-5553faa019cbfc722861" style="width:100%;height:200%;"></div>
-<script type="application/json" data-for="htmlwidget-5553faa019cbfc722861">{"x":{"diagram":"digraph {\n                  # graph definitions\n  graph [layout = dot, rankdir = TB]\n  \n  # node definitions\n  node [shape = rectangle, style = filled, color = grey, \n  nodesep = 1, \n  fixedsize = false, \n  width = 1.7] \n  \n  # edge definition\n  edge [color = grey, arrowhead = normal, arrowtail = dot]\n  \n  ##### fuentes de información\n  \n  inf [label = \"Datasets\",  fillcolor =  \"#DB4437\", color = \"white\", fontcolor = \"white\"]\n  \n  \n  ##### datasets\n  \n  cenaprece [label = \"CENAPRECE\",  fillcolor =  \"#0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  indre [label = \"INDRE\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  revision [label = \"PUBMED\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  bas_per [label = \"Entomology Personal Datasets\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  gbif [label = \"GBIF\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  conabio [label = \"CONABIO\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n \n  GLOBE_Observer [label = \"GLOBE Observer*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  Mosquito_Alert  [label = \"Mosquito Alert*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  iNaturalist  [label = \"iNaturalist*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n\n\n # final dataset\n \n data_final [label = \"Culicidae_mx_dataset\",  fillcolor =  \"DodgerBlue\", color = \"white\", fontcolor = \"white\"]\n \n ###\n ae [label = \"Aedes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n cx [label = \"Culex\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n an [label = \"Anopheles\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n hg [label = \"Haemagogus\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n ps [label = \"Psorophora\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cq [label = \"Coquillettidia\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cs [label = \"Culiseta\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n sb [label = \"Sabethes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n tr [label = \"Trichoprosopon\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n \n \n ###\n \n sdm [label = \"SDM\",  fillcolor =  \"#E01E5A\", color = \"white\", fontcolor = \"white\"]\n \n \n ##### define the relation\n \n inf -> {cenaprece indre revision bas_per gbif conabio GLOBE_Observer Mosquito_Alert iNaturalist}  -> data_final\n \ndata_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}\n \n \n\n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-d630a37abda1167b1cc7" style="width:100%;height:200%;"></div>
+<script type="application/json" data-for="htmlwidget-d630a37abda1167b1cc7">{"x":{"diagram":"digraph {\n                  # graph definitions\n  graph [layout = dot, rankdir = TB]\n  \n  # node definitions\n  node [shape = rectangle, style = filled, color = grey, \n  nodesep = 1, \n  fixedsize = false, \n  width = 1.7] \n  \n  # edge definition\n  edge [color = grey, arrowhead = normal, arrowtail = dot]\n  \n  ##### fuentes de información\n  \n  inf [label = \"Datasets\",  fillcolor =  \"#DB4437\", color = \"white\", fontcolor = \"white\"]\n  \n  \n  ##### datasets\n  \n  cenaprece [label = \"CENAPRECE\",  fillcolor =  \"#0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  indre [label = \"INDRE\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  revision [label = \"PUBMED\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  bas_per [label = \"Entomology Personal Datasets\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  gbif [label = \"GBIF\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  \n  conabio [label = \"CONABIO\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n \n  GLOBE_Observer [label = \"GLOBE Observer*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  Mosquito_Alert  [label = \"Mosquito Alert*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n  iNaturalist  [label = \"iNaturalist*\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\"]\n\n\n # final dataset\n \n data_final [label = \"Culicidae_mx_dataset\",  fillcolor =  \"DodgerBlue\", color = \"white\", fontcolor = \"white\"]\n \n ###\n ae [label = \"Aedes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n cx [label = \"Culex\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n an [label = \"Anopheles\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"]\n \n hg [label = \"Haemagogus\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n ps [label = \"Psorophora\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cq [label = \"Coquillettidia\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n cs [label = \"Culiseta\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n sb [label = \"Sabethes\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n tr [label = \"Trichoprosopon\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\"] \n \n \n \n ###\n \n sdm [label = \"SDM\",  fillcolor =  \"#E01E5A\", color = \"white\", fontcolor = \"white\"]\n \n \n ##### define the relation\n \n inf -> {cenaprece indre revision bas_per gbif conabio GLOBE_Observer Mosquito_Alert iNaturalist}  -> data_final\n \ndata_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}\n \n \n\n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="registros-de-culicidae-en-méxico" class="slide level2"><h2><span style="color:#003300;align-items: center">Registros de Culicidae en México</span></h2>
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+<p>&nbsp;</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="cmdsgjykus" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#cmdsgjykus table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#cmdsgjykus thead, #cmdsgjykus tbody, #cmdsgjykus tfoot, #cmdsgjykus tr, #cmdsgjykus td, #cmdsgjykus th {
+  border-style: none;
+}
+
+#cmdsgjykus p {
+  margin: 0;
+  padding: 0;
+}
+
+#cmdsgjykus .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 35px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#cmdsgjykus .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#cmdsgjykus .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#cmdsgjykus .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 35px;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#cmdsgjykus .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 35px;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#cmdsgjykus .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#cmdsgjykus .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#cmdsgjykus .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#cmdsgjykus .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#cmdsgjykus .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#cmdsgjykus .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#cmdsgjykus .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#cmdsgjykus .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#cmdsgjykus .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#cmdsgjykus .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#cmdsgjykus .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#cmdsgjykus .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#cmdsgjykus .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#cmdsgjykus .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#cmdsgjykus .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#cmdsgjykus .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#cmdsgjykus .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#cmdsgjykus .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#cmdsgjykus .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#cmdsgjykus .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#cmdsgjykus .gt_left {
+  text-align: left;
+}
+
+#cmdsgjykus .gt_center {
+  text-align: center;
+}
+
+#cmdsgjykus .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#cmdsgjykus .gt_font_normal {
+  font-weight: normal;
+}
+
+#cmdsgjykus .gt_font_bold {
+  font-weight: bold;
+}
+
+#cmdsgjykus .gt_font_italic {
+  font-style: italic;
+}
+
+#cmdsgjykus .gt_super {
+  font-size: 65%;
+}
+
+#cmdsgjykus .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#cmdsgjykus .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#cmdsgjykus .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#cmdsgjykus .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#cmdsgjykus .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#cmdsgjykus .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#cmdsgjykus .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_col_headings gt_spanner_row">
+<th rowspan="2" id="Género" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Género</th>
+<th colspan="2" id="Especies" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">Especies</span></th>
+<th colspan="2" id="Registros" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">Registros</span></th>
+<th colspan="2" id="Registros Únicos" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">Registros Únicos</span></th>
+</tr>
+<tr class="odd gt_col_headings">
+<th id="Total" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Total</th>
+<th id="Especies IM" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Especies IM</th>
+<th id="Totales" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Totales</th>
+<th id="Registros IM" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Registros IM</th>
+<th id="Ocurrencias" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Ocurrencias</th>
+<th id="RU IM" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">RU IM</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td id="stub_1_1" class="gt_row gt_center gt_stub" data-quarto-table-cell-role="th" scope="row">Aedes</td>
+<td class="gt_row gt_center" headers="stub_1_1 Total">79</td>
+<td class="gt_row gt_center" headers="stub_1_1 Especies IM">9</td>
+<td class="gt_row gt_center" headers="stub_1_1 Totales">74143</td>
+<td class="gt_row gt_center" headers="stub_1_1 Registros IM">70188</td>
+<td class="gt_row gt_center" headers="stub_1_1 Ocurrencias">10751</td>
+<td class="gt_row gt_center" headers="stub_1_1 RU IM">9916</td>
+</tr>
+<tr class="even">
+<td id="stub_1_2" class="gt_row gt_center gt_stub" data-quarto-table-cell-role="th" scope="row">Anopheles</td>
+<td class="gt_row gt_center" headers="stub_1_2 Total">36</td>
+<td class="gt_row gt_center" headers="stub_1_2 Especies IM">10</td>
+<td class="gt_row gt_center" headers="stub_1_2 Totales">9897</td>
+<td class="gt_row gt_center" headers="stub_1_2 Registros IM">8084</td>
+<td class="gt_row gt_center" headers="stub_1_2 Ocurrencias">2759</td>
+<td class="gt_row gt_center" headers="stub_1_2 RU IM">2303</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_3" class="gt_row gt_center gt_stub" data-quarto-table-cell-role="th" scope="row">Coquillettidia</td>
+<td class="gt_row gt_center" headers="stub_1_3 Total">5</td>
+<td class="gt_row gt_center" headers="stub_1_3 Especies IM">3</td>
+<td class="gt_row gt_center" headers="stub_1_3 Totales">506</td>
+<td class="gt_row gt_center" headers="stub_1_3 Registros IM">473</td>
+<td class="gt_row gt_center" headers="stub_1_3 Ocurrencias">116</td>
+<td class="gt_row gt_center" headers="stub_1_3 RU IM">109</td>
+</tr>
+<tr class="even">
+<td id="stub_1_4" class="gt_row gt_center gt_stub" data-quarto-table-cell-role="th" scope="row">Culex</td>
+<td class="gt_row gt_center" headers="stub_1_4 Total">74</td>
+<td class="gt_row gt_center" headers="stub_1_4 Especies IM">9</td>
+<td class="gt_row gt_center" headers="stub_1_4 Totales">37594</td>
+<td class="gt_row gt_center" headers="stub_1_4 Registros IM">33500</td>
+<td class="gt_row gt_center" headers="stub_1_4 Ocurrencias">6024</td>
+<td class="gt_row gt_center" headers="stub_1_4 RU IM">5132</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_5" class="gt_row gt_center gt_stub" data-quarto-table-cell-role="th" scope="row">Culiseta</td>
+<td class="gt_row gt_center" headers="stub_1_5 Total">5</td>
+<td class="gt_row gt_center" headers="stub_1_5 Especies IM">3</td>
+<td class="gt_row gt_center" headers="stub_1_5 Totales">2060</td>
+<td class="gt_row gt_center" headers="stub_1_5 Registros IM">1987</td>
+<td class="gt_row gt_center" headers="stub_1_5 Ocurrencias">497</td>
+<td class="gt_row gt_center" headers="stub_1_5 RU IM">471</td>
+</tr>
+<tr class="even">
+<td id="stub_1_6" class="gt_row gt_center gt_stub" data-quarto-table-cell-role="th" scope="row">Haemagogus</td>
+<td class="gt_row gt_center" headers="stub_1_6 Total">9</td>
+<td class="gt_row gt_center" headers="stub_1_6 Especies IM">3</td>
+<td class="gt_row gt_center" headers="stub_1_6 Totales">832</td>
+<td class="gt_row gt_center" headers="stub_1_6 Registros IM">807</td>
+<td class="gt_row gt_center" headers="stub_1_6 Ocurrencias">150</td>
+<td class="gt_row gt_center" headers="stub_1_6 RU IM">139</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_7" class="gt_row gt_center gt_stub" data-quarto-table-cell-role="th" scope="row">Mansonia</td>
+<td class="gt_row gt_center" headers="stub_1_7 Total">6</td>
+<td class="gt_row gt_center" headers="stub_1_7 Especies IM">1</td>
+<td class="gt_row gt_center" headers="stub_1_7 Totales">433</td>
+<td class="gt_row gt_center" headers="stub_1_7 Registros IM">257</td>
+<td class="gt_row gt_center" headers="stub_1_7 Ocurrencias">88</td>
+<td class="gt_row gt_center" headers="stub_1_7 RU IM">40</td>
+</tr>
+<tr class="even">
+<td id="stub_1_8" class="gt_row gt_center gt_stub" data-quarto-table-cell-role="th" scope="row">Psorophora</td>
+<td class="gt_row gt_center" headers="stub_1_8 Total">25</td>
+<td class="gt_row gt_center" headers="stub_1_8 Especies IM">3</td>
+<td class="gt_row gt_center" headers="stub_1_8 Totales">2584</td>
+<td class="gt_row gt_center" headers="stub_1_8 Registros IM">1226</td>
+<td class="gt_row gt_center" headers="stub_1_8 Ocurrencias">1412</td>
+<td class="gt_row gt_center" headers="stub_1_8 RU IM">688</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_9" class="gt_row gt_center gt_stub" data-quarto-table-cell-role="th" scope="row">Sabethes</td>
+<td class="gt_row gt_center" headers="stub_1_9 Total">6</td>
+<td class="gt_row gt_center" headers="stub_1_9 Especies IM">1</td>
+<td class="gt_row gt_center" headers="stub_1_9 Totales">190</td>
+<td class="gt_row gt_center" headers="stub_1_9 Registros IM">160</td>
+<td class="gt_row gt_center" headers="stub_1_9 Ocurrencias">55</td>
+<td class="gt_row gt_center" headers="stub_1_9 RU IM">37</td>
+</tr>
+<tr class="even">
+<td id="stub_1_10" class="gt_row gt_center gt_stub" data-quarto-table-cell-role="th" scope="row">Trichoprosopon</td>
+<td class="gt_row gt_center" headers="stub_1_10 Total">8</td>
+<td class="gt_row gt_center" headers="stub_1_10 Especies IM">1</td>
+<td class="gt_row gt_center" headers="stub_1_10 Totales">100</td>
+<td class="gt_row gt_center" headers="stub_1_10 Registros IM">78</td>
+<td class="gt_row gt_center" headers="stub_1_10 Ocurrencias">26</td>
+<td class="gt_row gt_center" headers="stub_1_10 RU IM">17</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 </section><section id="dios-botic" class="slide level2"><h2><span style="color:#003300;">Dios Botic</span></h2>
-<hr style="height:2px;border-width:0;color:#330019;background-color:#330019"></section><section id="dios-botic-1" class="slide level2"><h2><span style="color:#003300;">Dios Botic</span></h2>
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 <ul>
 <li><p><strong><em>Bio</em></strong> : <a href="">https://fdzul.github.io/web_site_fadm/</a></p></li>
