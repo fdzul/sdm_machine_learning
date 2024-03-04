@@ -160,8 +160,9 @@ DiagrammeR::grViz("digraph {
 ## Bases de Datos 2024
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 &nbsp;
-2024
-```{r base_datos_2024, dpi=400, echo=FALSE, fig.align ="center", out.height="100%", out.width = "100%"}
+
+
+```{r base_datos_2024, dpi=400, echo=FALSE, fig.align ="center", out.height="200%", out.width = "100%"}
 DiagrammeR::grViz("digraph {
                   # graph definitions
   graph [layout = dot, rankdir = TB]
@@ -243,6 +244,7 @@ data_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
 
 
 
