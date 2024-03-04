@@ -394,7 +394,7 @@ tibble::tibble("Género" = x$genero,
   padding: 10px;
 }
 
-.grid-item {
+.grid-item1 {
   background-color: rgba(255, 255, 255, 0.8);
   border: 2px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
@@ -405,14 +405,125 @@ tibble::tibble("Género" = x$genero,
 </head>
 <body>
 <div class="grid-container1">
-  <div class="grid-item">Registros</div>
-  <div class="grid-item">Registros Únicos</div>
-  <div class="grid-item"><img src="occ_aedes.jpg"></div>
-  <div class="grid-item"><img src="unique_occ_aedes.jpg"></div>
+  <div class="grid-item1">Registros</div>
+  <div class="grid-item1">Registros Únicos</div>
+  <div class="grid-item1"><img src="occ_aedes.jpg"></div>
+  <div class="grid-item1"><img src="unique_occ_aedes.jpg"></div>
  
 </div>
 </body>
 </html>
+
+
+
+## [*Ae. aegypti* & *Ae. albopictus*]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+&nbsp;
+
+<html>
+<head>
+```{=html}
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 5px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+```
+</head>
+<body>
+<h1>
+</h1>
+<p>
+</p>
+
+::: grid-container
+
+::: grid-item
+![](Aedes aegypti.jpg)
+:::
+
+::: grid-item
+![](Aedes aegypti.jpg)
+:::
+
+:::
+
+</body>
+</html>
+
+
+## [Aedes]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+&nbsp;
+
+<html>
+<head>
+```{=html}
+<style>
+.grid-container_aedes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+```
+</head>
+<body>
+<h1>
+</h1>
+<p>
+</p>
+
+::: grid-container_aedes
+
+::: grid-item
+![](aedes/Aedes triseriatus.jpg)
+:::
+
+::: grid-item
+![](aedes/Aedes trivittatus.jpg)
+:::
+
+::: grid-item
+![](aedes/Aedes epactius.jpg)
+:::
+
+
+::: grid-item
+![](aedes/Aedes scapularis.jpg)
+:::
+
+::: grid-item
+![](aedes/Aedes sollicitans.jpg)
+:::
+
+::: grid-item
+![](aedes/Aedes taeniorhynchus.jpg)
+:::
+
+:::
+
+</body>
+</html>
+
 
 
 
