@@ -653,7 +653,73 @@ tibble::tibble("Género" = x$genero,
 </html>
 
 
+## [*Coquillettidia* & *Psorophora*]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+&nbsp;
 
+<html>
+<head>
+```{=html}
+<style>
+.grid-container_culex {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+```
+</head>
+<body>
+<h1>
+</h1>
+<p>
+</p>
+
+::: grid-container_culex
+
+::: grid-item
+![](coquillettidia/Coquillettidia nigricans.jpg)
+:::
+
+::: grid-item
+![](coquillettidia/Coquillettidia perturbans.jpg)
+:::
+
+::: grid-item
+![](coquillettidia/Coquillettidia venezuelensis.jpg)
+:::
+
+
+::: grid-item
+![](psorophora/Psorophora ciliata.jpg)
+:::
+
+::: grid-item
+![](psorophora/Psorophora confinnis.jpg)
+:::
+
+::: grid-item
+![](psorophora/Psorophora ferox.jpg)
+:::
+
+:::
+
+</body>
+</html>
+
+
+## [*Trichoprosopon digitatum*]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](trichoprosopon/Trichoprosopon digitatum.jpg)
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
