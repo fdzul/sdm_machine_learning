@@ -195,15 +195,7 @@ DiagrammeR::grViz("digraph {
   GLOBE_Observer [label = 'GLOBE Observer*',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white']
   Mosquito_Alert  [label = 'Mosquito Alert*',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white']
   iNaturalist  [label = 'iNaturalist*',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white']
-  # 
- anofeles [label = 'Anopheles',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- culicidae [label = 'Culicidae',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- ao [label = 'Aldo Ortega',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- ro [label = 'Rafael Ojeda',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- 
- spocc [label = 'spocc',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- geodata [label = 'geodata',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- 
+
 
  # final dataset
  
@@ -237,14 +229,9 @@ DiagrammeR::grViz("digraph {
  
  ##### define the relation
  
- inf -> {cenaprece indre revision bas_per gbif conabio GLOBE_Observer Mosquito_Alert iNaturalist}
- indre -> {anofeles culicidae} -> data_final
- bas_per -> {ao ro} -> data_final
+ inf -> {cenaprece indre revision bas_per gbif conabio GLOBE_Observer Mosquito_Alert iNaturalist}  -> data_final
  
- gbif -> {spocc geodata} -> data_final
- cenaprece -> data_final
- revision -> data_final
- conabio -> data_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}
+data_final -> {ae cx an ps hg cq cs sb tr} -> {sdm}
  
  
 
@@ -252,6 +239,11 @@ DiagrammeR::grViz("digraph {
 }")
 
 ```
+
+
+## [Dios Botic]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
 
 
 ## [Dios Botic]{style="color:#003300;"}
