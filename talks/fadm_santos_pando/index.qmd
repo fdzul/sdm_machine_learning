@@ -61,6 +61,7 @@ execute:
 ## Bases de Datos
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 &nbsp;
+2022-2023
 ```{r base_datos, dpi=400, echo=FALSE, fig.align ="center", out.height="100%", out.width = "100%"}
 DiagrammeR::grViz("digraph {
                   # graph definitions
@@ -149,6 +150,12 @@ DiagrammeR::grViz("digraph {
 }")
 
 ```
+
+
+## Mosquito Dashboard
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](mosquito_dashboard.png)
 
 
 ## [Dios Botic]{style="color:#003300;"}
