@@ -4,7 +4,7 @@ format:
     #theme: ["theme/q-theme.scss"]
     slide-number: c/t
     logo: "https://www.insp.mx/assets/images/insp.png"
-    footer: "[github.com/fdzul](https://rad-peony-f290a5.netlify.app/talks/culicidae_mx_dataset/#/title-slide)"
+    footer: "[github.com/fdzul](https://sensational-meerkat-e2d1c0.netlify.app/talks/sdm_avance/#/)"
     code-copy: true
     center-title-slide: false
 highlight-style: a11y
@@ -54,7 +54,7 @@ execute:
 3. Tercera Reunión
 
    - 2024-02-04
-   - [link](https://sensational-meerkat-e2d1c0.netlify.app/talks/fadm_santos_pando/#/)
+   - [link](https://sensational-meerkat-e2d1c0.netlify.app/talks/sdm_avance/#/)
 
 
 ## Bases de Datos
@@ -772,4 +772,4 @@ tibble::tibble("Género" = x$genero,
 
 -   ***celular*** : [9999580167]()
 
--   ***slide***: [link](https://sensational-meerkat-e2d1c0.netlify.app/talks/fadm_santos_pando/#/)
+-   ***slide***: [link](https://sensational-meerkat-e2d1c0.netlify.app/talks/sdm_avance/#/)
