@@ -773,5 +773,3 @@ tibble::tibble("Género" = x$genero,
 -   ***celular*** : [9999580167]()
 
 -   ***slide***: [link](https://sensational-meerkat-e2d1c0.netlify.app/talks/fadm_santos_pando/#/)
-
-
