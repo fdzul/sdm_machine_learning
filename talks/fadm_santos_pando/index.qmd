@@ -380,6 +380,40 @@ tibble::tibble("Género" = x$genero,
 ```
 
 
+## [Registros del Género **Aedes**]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+&nbsp;
+
+<html>
+<head>
+<style>
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="grid-container1">
+  <div class="grid-item">Registros</div>
+  <div class="grid-item">Registros Únicos</div>
+  <div class="grid-item"><img src="occ_aedes.jpg"></div>
+  <div class="grid-item"><img src="unique_occ_aedes.jpg"></div>
+ 
+</div>
+</body>
+</html>
+
 
 
 ## [Dios Botic]{style="color:#003300;"}
