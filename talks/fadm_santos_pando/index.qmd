@@ -3,7 +3,7 @@ format:
   revealjs:
     #theme: ["theme/q-theme.scss"]
     slide-number: c/t
-    logo: "https://salud.yucatan.gob.mx/files/get/2889?v=1669754780"
+    logo: "https://www.insp.mx/assets/images/insp.png"
     footer: "[github.com/fdzul](https://rad-peony-f290a5.netlify.app/talks/culicidae_mx_dataset/#/title-slide)"
     code-copy: true
     center-title-slide: false
@@ -22,7 +22,12 @@ execute:
 
 <hr>
 
-<h3> Felipe Dzul Manzanilla </h3><h3>Fabián Correa Morales</h3> <h3>Herón Huerta</h3>
+<h3>Dr. Felipe Dzul Manzanilla </h3>
+<h3>Dr. Santos Ramírez-Carreto</h3>
+<h3>Dra. Victoria Pando</h3>
+<h3>Dr. Heron Huerta</h3>
+<h3>Dr. Fabián Correa-Morales</h3>
+<h3>Dr. Héctor Gómez-Dantés</h3>
 
 <h3> 2024-02-04 </h3>
 <br>
@@ -32,95 +37,26 @@ execute:
 ![](https://wrbu.si.edu/keys/AF_AE_A/key/Aedes_Afrotropical_AFRICOM_A/Media/Images/PP_AeAeg01b.jpg){.absolute top=680 left=1250 width="300"}
 
 
-## Temas
+## Antecedentes
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 &nbsp;
 
--   Fuentes de Información y Flujograma
+1. Primera Reunión
+   
+   - 2022-06-02
+   - [link](https://rad-peony-f290a5.netlify.app/talks/culicidae_mx_dataset/#/)
 
--   Organizacion 
+2. Segunda Reunión
 
--   Registros de *Aedes aegypti*
+   - 2023-05-03
+   - [link](https://magenta-queijadas-806284.netlify.app/talks/culicidae_sdm/#/)
 
--   Registro de otras especies por Año.
 
--   Maps .
+3. Tercera Reunión
 
-## Flujograma de la Información
-<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
-&nbsp;
+   - 2024-02-04
+   - [link](https://sensational-meerkat-e2d1c0.netlify.app/talks/fadm_santos_pando/#/)
 
-```{r flujograma, dpi=400, echo=FALSE, fig.align ="center", out.height="100%", out.width = "100%"}
-DiagrammeR::grViz("digraph {
-                  # graph definitions
-  graph [layout = dot, rankdir = TB]
-  
-  # node definitions
-  node [shape = rectangle, style = filled, color = grey, 
-  nodesep = 1, 
-  fixedsize = false, 
-  width = 1.7] 
-  
-  # edge definition
-  edge [color = grey, arrowhead = normal, arrowtail = dot]
-  
-  ##### fuentes de información
-  
-  inf [label = 'Fuentes de Información',  fillcolor =  '#DB4437', color = 'white', fontcolor = 'white']
-  
-  
-  ##### datasets
-  
-  cenaprece [label = 'CENAPRECE',  fillcolor =  '#0F9D58', color = 'white', fontcolor = 'white']
-  
-  indre [label = 'InDre',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white']
-  
-  revision [label = 'Revisión',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white']
-  bas_per [label = 'Bases Personales',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white']
-  gbif [label = 'gbif',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white']
-  
-  conabio [label = 'CONABIO',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white']
- 
- # 
- anofeles [label = 'Anopheles',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- culicidae [label = 'Culicidae',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- ao [label = 'Aldo Ortega',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- ro [label = 'Rafael Ojeda',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- 
- spocc [label = 'spocc',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- geodata [label = 'geodata',  fillcolor =  'orange', color = 'white', fontcolor = 'black']
- 
-
- # final dataset
- 
- data_final [label = 'Culicidae_mx_dataset',  fillcolor =  'DodgerBlue', color = 'white', fontcolor = 'white']
- 
- ###
- aegypti [label = 'Aedes agypti',  fillcolor =  '#2EB67D', color = 'white', fontcolor = 'white']
- 
- albopictus [label = 'Aedes albopictus',  fillcolor =  '#2EB67D', color = 'white', fontcolor = 'white']
- 
- range [label = 'Rangos de Distribución',  fillcolor =  '#E01E5A', color = 'white', fontcolor = 'white']
- 
- lgcp [label = 'Log Gaussian Cox Process',  fillcolor =  '#E01E5A', color = 'white', fontcolor = 'white']
- 
- ##### define the relation
- 
- inf -> {cenaprece indre revision bas_per gbif conabio}
- indre -> {anofeles culicidae} -> data_final
- bas_per -> {ao ro} -> data_final
- 
- gbif -> {spocc geodata} -> data_final
- cenaprece -> data_final
- revision -> data_final
- conabio -> data_final -> {aegypti albopictus} -> {range lgcp}
- 
- 
-
- 
-}")
-
-```
 
 ## Bases de Datos
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
@@ -224,6 +160,6 @@ DiagrammeR::grViz("digraph {
 
 -   ***celular*** : [9999580167]()
 
--   ***slides***: [https://sensational-meerkat-e2d1c0.netlify.app/talks/fadm_santos_pando/#/](https://sensational-meerkat-e2d1c0.netlify.app/talks/fadm_santos_pando/#/)
+-   ***slide***: [link](https://sensational-meerkat-e2d1c0.netlify.app/talks/fadm_santos_pando/#/)
 
 
