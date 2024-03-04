@@ -755,11 +755,11 @@ tibble::tibble("Género" = x$genero,
 ## [**Puntos Importante**]{style="color:#003300;align-items: center"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-- Unir *Culex pipiens* y *Culex quinquefasciatus*
+- Unir los datos *Culex pipiens* y *Culex quinquefasciatus*
 
-- Incluir datos del mosquitos dasboard
+- Incluir datos del mosquito dasboard
 
-- Ampliar la resolición temporal de la revisión (2010-2023)
+- Ampliar la resolución temporal de la revisión de mosquitos (2010-2023)
 
 
 
